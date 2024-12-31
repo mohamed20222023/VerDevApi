@@ -241,6 +241,18 @@
           }
         }
       },
+      "Intercom.Dotnet.Client/2.1.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "RestSharp": "106.5.4"
+        },
+        "runtime": {
+          "lib/net452/Intercom.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "LinqKit/1.2.5": {
         "dependencies": {
           "EntityFramework": "6.3.0",
@@ -1232,19 +1244,19 @@
           "System.Security.Principal.Windows": "5.0.0"
         }
       },
-      "Microsoft.Win32.SystemEvents/6.0.0": {
+      "Microsoft.Win32.SystemEvents/9.0.0": {
         "runtime": {
-          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
+          "lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
           }
         },
         "runtimeTargets": {
-          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+          "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
             "rid": "win",
             "assetType": "runtime",
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
           }
         }
       },
@@ -1294,7 +1306,7 @@
         "dependencies": {
           "Microsoft.CodeAnalysis.VisualBasic": "4.5.0",
           "System.CodeDom": "4.7.0",
-          "System.Drawing.Common": "6.0.0",
+          "System.Drawing.Common": "9.0.0",
           "System.IO.Packaging": "4.7.0",
           "System.Resources.Extensions": "4.7.1",
           "System.Windows.Extensions": "6.0.0"
@@ -1315,6 +1327,14 @@
           "lib/net7.0/Microsoft.ReportViewer.ProcessingObjectModel.dll": {
             "assemblyVersion": "15.0.0.0",
             "fileVersion": "15.0.1404.0"
+          }
+        }
+      },
+      "RestSharp/106.5.4": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.5.4.0",
+            "fileVersion": "106.5.4.0"
           }
         }
       },
@@ -1688,28 +1708,18 @@
         }
       },
       "System.Diagnostics.DiagnosticSource/8.0.0": {},
-      "System.Drawing.Common/6.0.0": {
+      "System.Drawing.Common/9.0.0": {
         "dependencies": {
-          "Microsoft.Win32.SystemEvents": "6.0.0"
+          "Microsoft.Win32.SystemEvents": "9.0.0"
         },
         "runtime": {
-          "lib/net6.0/System.Drawing.Common.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/unix/lib/net6.0/System.Drawing.Common.dll": {
-            "rid": "unix",
-            "assetType": "runtime",
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
+          "lib/net8.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52901"
           },
-          "runtimes/win/lib/net6.0/System.Drawing.Common.dll": {
-            "rid": "win",
-            "assetType": "runtime",
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
+          "lib/net8.0/System.Private.Windows.Core.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52901"
           }
         }
       },
@@ -1912,7 +1922,7 @@
       "System.Threading.Tasks.Extensions/4.5.4": {},
       "System.Windows.Extensions/6.0.0": {
         "dependencies": {
-          "System.Drawing.Common": "6.0.0"
+          "System.Drawing.Common": "9.0.0"
         },
         "runtime": {
           "lib/net6.0/System.Windows.Extensions.dll": {
@@ -1929,6 +1939,14 @@
           }
         }
       },
+      "ZXing.Net/0.16.9": {
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "assemblyVersion": "0.16.9.0",
+            "fileVersion": "0.16.9.0"
+          }
+        }
+      },
       "Daam.Verzasca.Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
@@ -1936,9 +1954,12 @@
           "Daam.Verzasca.Infrastructure": "1.0.0",
           "Daam.Verzasca.Integration": "1.0.0",
           "Hangfire": "1.8.15",
+          "Intercom.Dotnet.Client": "2.1.1",
           "LinqKit": "1.2.5",
           "NCrontab": "3.3.3",
-          "Newtonsoft.Json": "13.0.3"
+          "Newtonsoft.Json": "13.0.3",
+          "QRCoder": "1.6.0",
+          "ZXing.Net": "0.16.9"
         },
         "runtime": {
           "Daam.Verzasca.Application.dll": {
@@ -1953,7 +1974,8 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.2",
           "Microsoft.EntityFrameworkCore.Relational": "8.0.2",
           "Microsoft.Extensions.Configuration.Json": "8.0.0",
-          "Microsoft.Extensions.Localization": "8.0.2"
+          "Microsoft.Extensions.Localization": "8.0.2",
+          "System.Drawing.Common": "9.0.0"
         },
         "runtime": {
           "Daam.Verzasca.Core.dll": {
@@ -2116,6 +2138,13 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "Intercom.Dotnet.Client/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/HOK6Mf8BEnJDLSTF8qzClcTYg3j8Cs8NNxxYfjutOnriygu3aN+pTfuV+Qb7Y0I8bkj3g+JLClrc0oodVsoSg==",
+      "path": "intercom.dotnet.client/2.1.1",
+      "hashPath": "intercom.dotnet.client.2.1.1.nupkg.sha512"
     },
     "LinqKit/1.2.5": {
       "type": "package",
@@ -2726,12 +2755,12 @@
       "path": "microsoft.win32.registry/4.6.0",
       "hashPath": "microsoft.win32.registry.4.6.0.nupkg.sha512"
     },
-    "Microsoft.Win32.SystemEvents/6.0.0": {
+    "Microsoft.Win32.SystemEvents/9.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hqTM5628jSsQiv+HGpiq3WKBl2c8v1KZfby2J6Pr7pEPlK9waPdgEO6b8A/+/xn/yZ9ulv8HuqK71ONy2tg67A==",
-      "path": "microsoft.win32.systemevents/6.0.0",
-      "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
+      "sha512": "sha512-z8FfGIaoeALdD+KF44A2uP8PZIQQtDGiXsOLuN8nohbKhkyKt7zGaZb+fKiCxTuBqG22Q7myIAioSWaIcOOrOw==",
+      "path": "microsoft.win32.systemevents/9.0.0",
+      "hashPath": "microsoft.win32.systemevents.9.0.0.nupkg.sha512"
     },
     "MimeKit/4.8.0": {
       "type": "package",
@@ -2774,6 +2803,13 @@
       "sha512": "sha512-AXxxnPL2oIgbQ/kpDFCgnjLQLEvU/Rv/EhbEprQEug5EIt1fpsf6j4BTiYDqaplYeCLpt9zAQDYKolLdSNJ+1Q==",
       "path": "reportviewercore.netcore/15.1.18",
       "hashPath": "reportviewercore.netcore.15.1.18.nupkg.sha512"
+    },
+    "RestSharp/106.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AOAzWW/L0YNxOLjc2foBmKFRBGNshfKXlpQrWtX9U5fArZsuiz9o9tb2QsY6uXtMEtRdKJcj3J2Mw4L6UJVaAA==",
+      "path": "restsharp/106.5.4",
+      "hashPath": "restsharp.106.5.4.nupkg.sha512"
     },
     "runtime.native.System.Data.SqlClient.sni/4.6.0": {
       "type": "package",
@@ -3027,12 +3063,12 @@
       "path": "system.diagnostics.diagnosticsource/8.0.0",
       "hashPath": "system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512"
     },
-    "System.Drawing.Common/6.0.0": {
+    "System.Drawing.Common/9.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-NfuoKUiP2nUWwKZN6twGqXioIe1zVD0RIj2t976A+czLHr2nY454RwwXs6JU9Htc6mwqL6Dn/nEL3dpVf2jOhg==",
-      "path": "system.drawing.common/6.0.0",
-      "hashPath": "system.drawing.common.6.0.0.nupkg.sha512"
+      "sha512": "sha512-uoozjI3+dlgKh2onFJcz8aNLh6TRCPlLSh8Dbuljc8CdvqXrxHOVysJlrHvlsOCqceqGBR1wrMPxlnzzhynktw==",
+      "path": "system.drawing.common/9.0.0",
+      "hashPath": "system.drawing.common.9.0.0.nupkg.sha512"
     },
     "System.Formats.Asn1/8.0.1": {
       "type": "package",
@@ -3264,6 +3300,13 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "ZXing.Net/0.16.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7WaVMHklpT3Ye2ragqRIwlFRsb6kOk63BOGADV0fan3ulVfGLUYkDi5yNUsZS/7FVNkWbtHAlDLmu4WnHGfqvQ==",
+      "path": "zxing.net/0.16.9",
+      "hashPath": "zxing.net.0.16.9.nupkg.sha512"
     },
     "Daam.Verzasca.Application/1.0.0": {
       "type": "project",
