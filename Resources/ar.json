@@ -93,5 +93,6 @@
   "ApprovalRequestNotFound": "لم يتم العثور على طلب الموافقة.",
   "ApprovalRequestAlreadyReviewed": "تم مراجعة طلب الموافقة بالفعل.",
   "ApprovalRequestApproved": "تم قبول طلب الموافقة.",
-  "ApprovalRequestRejected": "تم رفض طلب الموافقة."
+  "ApprovalRequestRejected": "تم رفض طلب الموافقة.",
+  "errorOnSendingMessages": "خطأ في إرسال الرسائل"
 }

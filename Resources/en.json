@@ -89,9 +89,11 @@
   "StoreItemNotFound": "StoreItem not found",
   "stockingMasterNotFound": "The specified Stocking Master was not found.",
   "detailAddedSuccessfully": "The detail was successfully added to the Stocking Master.",
-  "ApprovalRequestNotFound":	"Approval request not found.",
-"ApprovalRequestAlreadyReviewed" :"Approval request has already been reviewed.",
-"ApprovalRequestApproved" : "Approval request has been approved.",
-"ApprovalRequestRejected" : "Approval request has been rejected."
+  "ApprovalRequestNotFound": "Approval request not found.",
+  "ApprovalRequestAlreadyReviewed": "Approval request has already been reviewed.",
+  "ApprovalRequestApproved": "Approval request has been approved.",
+  "ApprovalRequestRejected": "Approval request has been rejected.",
+  "errorOnSendingMessages": "Error on sending messages"
+
 
 }
